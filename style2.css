@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+*{
+    margin: 0;
+    padding: 0;
+}   
+p.name {
+    color: rgb(180, 180, 180);
+    padding-left: 40px;
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 40px;
+    animation-name: example;
+    animation-duration: 0.1s;
+}
+
+p.razdel {
+    color: rgb(95, 95, 95);
+    padding-left: 40px;
+    padding-top: 1vh;
+    text-align: center;
+    font-size: 25px;
+    animation-name: example;
+    animation-duration: 0.1s;
+}
+
+p.skidki {
+    color: rgb(223, 196, 44);
+    padding-left: 40px;
+    padding-top: 1vh;
+    text-align: center;
+    font-size: 25px;
+    animation-name: anim;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    padding-left: 40px;
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 0.1s;
+}
+a {
+    color: rgb(146, 28, 64);
+}
+
+img{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    animation-name: example;
+    animation-duration: 0.1s;
+}
+
+
+ /* The animation code */
+ @keyframes example {
+    0%   {left:-100vw; top:-20vw;}
+    100% {left:0; top:0px;}
+}
+
+@keyframes anim {
+    0%   {left:0px; top: 10px;}
+    50% {left:0px; top:-10px;}
+    100%   {left:0px; top: 10px;}
+}
+    
